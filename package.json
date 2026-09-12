@@ -1,0 +1,22 @@
+{
+  "name": "reexam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "mongoose": "^9.10.0",
+    "nodemailer": "^10.0.9",
+    "nodemon": "^3.1.14",
+    "otp-generator": "^4.0.1"
+  }
+}
